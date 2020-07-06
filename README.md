@@ -19,7 +19,7 @@ visit.
 
 #### Demo
 
-You can view the fully working app [here](https://jf-marino.github.io/react-posts).
+You can view the fully working app [here](https://jf-marino.github.io/react-posts/).
 
 #### How to run locally
 

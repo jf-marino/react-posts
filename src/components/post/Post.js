@@ -20,7 +20,7 @@ const capitalize = (text = '') => {
     : s
 }
 
-const Username = ({ user, post }) => post.username === user.username
+const Username = ({ user, post }) => post && user && post.username === user.username
   ? <You>You posted</You>
   : <Author>Posted by <u>{post.username}</u> from {post.city}</Author>;
 
